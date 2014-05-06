@@ -1,0 +1,101 @@
+2014-04-29T23:10:53.892306+00:00 app[web.1]:     at /app/node_modules/mongodb/lib/mongodb/auth/mongodb_cr.js:39:33
+2014-04-29T23:10:53.892309+00:00 app[web.1]:     at Server.Base._callHandler (/app/node_modules/mongodb/lib/mongodb/connection/base.js:442:41)
+2014-04-29T23:10:53.892308+00:00 app[web.1]:     at /app/node_modules/mongodb/lib/mongodb/db.js:1806:9
+2014-04-29T23:10:53.892311+00:00 app[web.1]:     at /app/node_modules/mongodb/lib/mongodb/connection/server.js:485:18
+2014-04-29T23:10:53.892314+00:00 app[web.1]:     at null.<anonymous> (/app/node_modules/mongodb/lib/mongodb/connection/server.js:443:20)
+2014-04-29T23:10:53.892316+00:00 app[web.1]:     at EventEmitter.emit (events.js:95:17)
+2014-04-29T23:10:53.892317+00:00 app[web.1]:     at null.<anonymous> (/app/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:191:13)
+2014-04-29T23:10:53.892312+00:00 app[web.1]:     at MongoReply.parseBody (/app/node_modules/mongodb/lib/mongodb/responses/mongo_reply.js:68:5)
+2014-04-29T23:10:53.892320+00:00 app[web.1]:     at EventEmitter.emit (events.js:98:17)
+2014-04-29T23:10:53.867117+00:00 app[web.1]: /app/node_modules/mongodb/lib/mongodb/mongo_client.js:423
+2014-04-29T23:10:55.390826+00:00 heroku[web.1]: Process exited with status 8
+2014-04-29T23:10:55.412930+00:00 heroku[web.1]: State changed from starting to crashed
+2014-04-29T23:11:40.867417+00:00 heroku[api]: Rollback to v14 by pm1122@my.bristol.ac.uk
+2014-04-29T23:11:40.939159+00:00 heroku[web.1]: State changed from crashed to starting
+2014-04-29T23:11:44.358749+00:00 app[web.1]: server is starting...
+2014-04-29T23:11:44.757935+00:00 app[web.1]: MongoError: auth fails
+2014-04-29T23:11:44.757943+00:00 app[web.1]:     at Server.Base._callHandler (/app/node_modules/mongodb/lib/mongodb/connection/base.js:442:41)
+2014-04-29T23:11:44.757940+00:00 app[web.1]:     at /app/node_modules/mongodb/lib/mongodb/auth/mongodb_cr.js:39:33
+2014-04-29T23:11:44.757938+00:00 app[web.1]:     at Object.toError (/app/node_modules/mongodb/lib/mongodb/utils.js:110:11)
+2014-04-29T23:11:44.753954+00:00 app[web.1]: 
+2014-04-29T23:11:44.754549+00:00 app[web.1]:               throw err
+2014-04-29T23:11:44.757942+00:00 app[web.1]:     at /app/node_modules/mongodb/lib/mongodb/db.js:1806:9
+2014-04-29T23:11:44.757945+00:00 app[web.1]:     at /app/node_modules/mongodb/lib/mongodb/connection/server.js:485:18
+2014-04-29T23:11:44.757947+00:00 app[web.1]:     at MongoReply.parseBody (/app/node_modules/mongodb/lib/mongodb/responses/mongo_reply.js:68:5)
+2014-04-29T23:11:44.757948+00:00 app[web.1]:     at null.<anonymous> (/app/node_modules/mongodb/lib/mongodb/connection/server.js:443:20)
+2014-04-29T23:11:44.757950+00:00 app[web.1]:     at EventEmitter.emit (events.js:95:17)
+2014-04-29T23:11:44.757952+00:00 app[web.1]:     at null.<anonymous> (/app/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:191:13)
+2014-04-29T23:11:44.757953+00:00 app[web.1]:     at EventEmitter.emit (events.js:98:17)
+2014-04-29T23:11:44.754586+00:00 app[web.1]:                     ^
+2014-04-29T23:11:44.685076+00:00 app[web.1]: Server has started.
+2014-04-29T23:11:44.754307+00:00 app[web.1]: /app/node_modules/mongodb/lib/mongodb/mongo_client.js:423
+2014-04-29T23:11:40.867706+00:00 heroku[api]: Release v17 created by pm1122@my.bristol.ac.uk
+2014-04-29T23:11:43.261100+00:00 heroku[web.1]: Starting process with command `node web.js`
+2014-04-29T23:11:46.199696+00:00 heroku[web.1]: State changed from starting to crashed
+2014-04-29T23:11:46.179992+00:00 heroku[web.1]: Process exited with status 8
+2014-04-29T23:18:26.370959+00:00 heroku[web.1]: State changed from crashed to starting
+2014-04-29T23:18:29.302850+00:00 app[web.1]: server is starting...
+2014-04-29T23:18:29.550455+00:00 app[web.1]: Server has started.
+2014-04-29T23:18:30.108363+00:00 app[web.1]:               throw err
+2014-04-29T23:18:30.107253+00:00 app[web.1]: 
+2014-04-29T23:18:30.123913+00:00 app[web.1]: MongoError: auth fails
+2014-04-29T23:18:30.123919+00:00 app[web.1]:     at Object.toError (/app/node_modules/mongodb/lib/mongodb/utils.js:110:11)
+2014-04-29T23:18:30.123922+00:00 app[web.1]:     at /app/node_modules/mongodb/lib/mongodb/auth/mongodb_cr.js:39:33
+2014-04-29T23:18:30.123923+00:00 app[web.1]:     at /app/node_modules/mongodb/lib/mongodb/db.js:1806:9
+2014-04-29T23:18:30.123925+00:00 app[web.1]:     at Server.Base._callHandler (/app/node_modules/mongodb/lib/mongodb/connection/base.js:442:41)
+2014-04-29T23:18:30.123927+00:00 app[web.1]:     at /app/node_modules/mongodb/lib/mongodb/connection/server.js:485:18
+2014-04-29T23:18:30.123930+00:00 app[web.1]:     at null.<anonymous> (/app/node_modules/mongodb/lib/mongodb/connection/server.js:443:20)
+2014-04-29T23:18:30.123933+00:00 app[web.1]:     at null.<anonymous> (/app/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:191:13)
+2014-04-29T23:18:30.123928+00:00 app[web.1]:     at MongoReply.parseBody (/app/node_modules/mongodb/lib/mongodb/responses/mongo_reply.js:68:5)
+2014-04-29T23:18:30.123935+00:00 app[web.1]:     at EventEmitter.emit (events.js:98:17)
+2014-04-29T23:18:30.123932+00:00 app[web.1]:     at EventEmitter.emit (events.js:95:17)
+2014-04-29T23:18:30.107798+00:00 app[web.1]: /app/node_modules/mongodb/lib/mongodb/mongo_client.js:423
+2014-04-29T23:18:30.110851+00:00 app[web.1]:                     ^
+2014-04-29T23:18:29.737035+00:00 heroku[web.1]: State changed from starting to up
+2014-04-29T23:18:28.310735+00:00 heroku[web.1]: Starting process with command `node web.js`
+2014-04-29T23:18:31.534012+00:00 heroku[web.1]: State changed from up to crashed
+2014-04-29T23:18:31.525634+00:00 heroku[web.1]: Process exited with status 8
+2014-04-30T00:06:36.216008+00:00 heroku[web.1]: State changed from crashed to starting
+2014-04-30T00:06:37.963695+00:00 heroku[web.1]: Starting process with command `node web.js`
+2014-04-30T00:06:38.920490+00:00 app[web.1]: server is starting...
+2014-04-30T00:06:39.434275+00:00 app[web.1]: Server has started.
+2014-04-30T00:06:39.902773+00:00 app[web.1]: /app/node_modules/mongodb/lib/mongodb/mongo_client.js:423
+2014-04-30T00:06:39.902086+00:00 app[web.1]: 
+2014-04-30T00:06:39.903199+00:00 app[web.1]:               throw err
+2014-04-30T00:06:39.903487+00:00 app[web.1]:                     ^
+2014-04-30T00:06:39.906757+00:00 app[web.1]: MongoError: auth fails
+2014-04-30T00:06:39.906764+00:00 app[web.1]:     at /app/node_modules/mongodb/lib/mongodb/auth/mongodb_cr.js:39:33
+2014-04-30T00:06:39.906765+00:00 app[web.1]:     at /app/node_modules/mongodb/lib/mongodb/db.js:1806:9
+2014-04-30T00:06:39.906767+00:00 app[web.1]:     at Server.Base._callHandler (/app/node_modules/mongodb/lib/mongodb/connection/base.js:442:41)
+2014-04-30T00:06:39.906768+00:00 app[web.1]:     at /app/node_modules/mongodb/lib/mongodb/connection/server.js:485:18
+2014-04-30T00:06:39.906769+00:00 app[web.1]:     at MongoReply.parseBody (/app/node_modules/mongodb/lib/mongodb/responses/mongo_reply.js:68:5)
+2014-04-30T00:06:39.906762+00:00 app[web.1]:     at Object.toError (/app/node_modules/mongodb/lib/mongodb/utils.js:110:11)
+2014-04-30T00:06:39.906771+00:00 app[web.1]:     at null.<anonymous> (/app/node_modules/mongodb/lib/mongodb/connection/server.js:443:20)
+2014-04-30T00:06:39.906772+00:00 app[web.1]:     at EventEmitter.emit (events.js:95:17)
+2014-04-30T00:06:39.906773+00:00 app[web.1]:     at null.<anonymous> (/app/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:191:13)
+2014-04-30T00:06:39.906774+00:00 app[web.1]:     at EventEmitter.emit (events.js:98:17)
+2014-04-30T00:06:41.130671+00:00 heroku[web.1]: State changed from starting to crashed
+2014-04-30T00:06:41.119912+00:00 heroku[web.1]: Process exited with status 8
+2014-04-30T00:28:49.535812+00:00 heroku[web.1]: State changed from crashed to starting
+2014-04-30T00:28:52.930700+00:00 app[web.1]: server is starting...
+2014-04-30T00:28:53.272698+00:00 app[web.1]: /app/node_modules/mongodb/lib/mongodb/mongo_client.js:423
+2014-04-30T00:28:53.154349+00:00 app[web.1]: Server has started.
+2014-04-30T00:28:53.272051+00:00 app[web.1]: 
+2014-04-30T00:28:53.273072+00:00 app[web.1]:               throw err
+2014-04-30T00:28:53.273157+00:00 app[web.1]:                     ^
+2014-04-30T00:28:53.277209+00:00 app[web.1]: MongoError: auth fails
+2014-04-30T00:28:53.277214+00:00 app[web.1]:     at Object.toError (/app/node_modules/mongodb/lib/mongodb/utils.js:110:11)
+2014-04-30T00:28:53.277216+00:00 app[web.1]:     at /app/node_modules/mongodb/lib/mongodb/auth/mongodb_cr.js:39:33
+2014-04-30T00:28:53.277217+00:00 app[web.1]:     at /app/node_modules/mongodb/lib/mongodb/db.js:1806:9
+2014-04-30T00:28:53.277219+00:00 app[web.1]:     at Server.Base._callHandler (/app/node_modules/mongodb/lib/mongodb/connection/base.js:442:41)
+2014-04-30T00:28:53.277221+00:00 app[web.1]:     at /app/node_modules/mongodb/lib/mongodb/connection/server.js:485:18
+2014-04-30T00:28:53.277224+00:00 app[web.1]:     at null.<anonymous> (/app/node_modules/mongodb/lib/mongodb/connection/server.js:443:20)
+2014-04-30T00:28:53.277222+00:00 app[web.1]:     at MongoReply.parseBody (/app/node_modules/mongodb/lib/mongodb/responses/mongo_reply.js:68:5)
+2014-04-30T00:28:53.277226+00:00 app[web.1]:     at EventEmitter.emit (events.js:95:17)
+2014-04-30T00:28:53.277227+00:00 app[web.1]:     at null.<anonymous> (/app/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:191:13)
+2014-04-30T00:28:53.277229+00:00 app[web.1]:     at EventEmitter.emit (events.js:98:17)
+2014-04-30T00:28:54.722502+00:00 heroku[web.1]: State changed from starting to crashed
+2014-04-30T00:28:51.798746+00:00 heroku[web.1]: Starting process with command `node web.js`
+2014-04-30T00:28:54.697092+00:00 heroku[web.1]: Process exited with status 8
+2014-04-30T01:19:26.176849+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=powerful-savannah-8011.herokuapp.com request_id=3effce5e-add6-4834-938e-ae905442c3cf fwd="31.205.98.174" dyno= connect= service= status=503 bytes=
+2014-04-30T01:19:27.205001+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=powerful-savannah-8011.herokuapp.com request_id=a139c917-5592-4e7f-b214-da39e48fa995 fwd="31.205.98.174" dyno= connect= service= status=503 bytes=

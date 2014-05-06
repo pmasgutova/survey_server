@@ -1,0 +1,20 @@
+{
+  "name": "survey_server",
+  "version": "0.0.1",
+  "description": "backend for a survey_client",
+  "main": "web.js",
+  "dependencies": {
+    "mongodb": "~1.3.23"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node web.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://akamaster@bitbucket.org/akamaster/survey_server.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,25 @@
+.wrapper0, .wrapper1, .wrapper2, .wrapper3, .wrapper4 {
+    text-align: center;
+	
+}
+
+.send_btn, .next_btn1, .next_btn2, .next_btn3, .next_btn4{
+position: absolute:
+top: 50%;
+width: 100%;
+color:#404040;
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+border: 2px solid rgba(109,202,236,0.3);	
+}
+
+.text {
+font-weight: bold;
+padding-top: 5px;
+}
+
+.section {
+font-weight: bold;
+background-color:#6DCAEC;
+padding: 10px;
+}
